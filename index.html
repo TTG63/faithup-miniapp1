@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FaithUp Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>FaithUp Game</h1>
+        <div id="quiz">
+            <div id="question">Загрузка вопроса...</div>
+            <div id="answers"></div>
+            <button id="nextBtn" onclick="nextQuestion()">Следующий</button>
+        </div>
+        <div id="result" style="display: none;">
+            <h2>Поздравляем!</h2>
+            <p>Вы заработали <span id="score">0</span> FaithCoins</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
